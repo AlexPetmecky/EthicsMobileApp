@@ -79,6 +79,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mVc-7n-nHM" secondAttribute="bottom" constant="248" id="zjM-tg-hux"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginBTN" destination="H99-7D-98N" id="gWw-wk-oXJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
