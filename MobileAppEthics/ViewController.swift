@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     //EDITS
     // test (miles)
+    // test 2 miles
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
