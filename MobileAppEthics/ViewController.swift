@@ -9,10 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
     //EDITS
+    @IBOutlet weak var loginBTN: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        loginBTN.addTarget(self, action: #selector(self.login(_:)), for: UIControl.Event.touchUpInside)
+        
+        
+        
+    }
+    
+    @IBAction func login(_ sender: Any){
         
     }
 
