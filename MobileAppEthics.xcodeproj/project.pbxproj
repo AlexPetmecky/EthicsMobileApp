@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C6D67D512CC2DC200010BEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D67D322CC2DC1D0010BEE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D67D392CC2DC1D0010BEE4;
+			remoteInfo = MobileAppEthics;
+		};
+		C6D67D5B2CC2DC200010BEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6D67D322CC2DC1D0010BEE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D67D392CC2DC1D0010BEE4;
+			remoteInfo = MobileAppEthics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6D67D3A2CC2DC1D0010BEE4 /* MobileAppEthics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileAppEthics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D67D502CC2DC200010BEE4 /* MobileAppEthicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAppEthicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D67D5A2CC2DC200010BEE4 /* MobileAppEthicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAppEthicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C6D67D622CC2DC200010BEE4 /* Exceptions for "MobileAppEthics" folder in "MobileAppEthics" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C6D67D392CC2DC1D0010BEE4 /* MobileAppEthics */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C6D67D3C2CC2DC1D0010BEE4 /* MobileAppEthics */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C6D67D622CC2DC200010BEE4 /* Exceptions for "MobileAppEthics" folder in "MobileAppEthics" target */,
+			);
+			path = MobileAppEthics;
+			sourceTree = "<group>";
+		};
+		C6D67D532CC2DC200010BEE4 /* MobileAppEthicsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MobileAppEthicsTests;
+			sourceTree = "<group>";
+		};
+		C6D67D5D2CC2DC200010BEE4 /* MobileAppEthicsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MobileAppEthicsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6D67D372CC2DC1D0010BEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D67D4D2CC2DC200010BEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D67D572CC2DC200010BEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6D67D312CC2DC1D0010BEE4 = {
+			isa = PBXGroup;
+			children = (
+				C6D67D3C2CC2DC1D0010BEE4 /* MobileAppEthics */,
+				C6D67D532CC2DC200010BEE4 /* MobileAppEthicsTests */,
+				C6D67D5D2CC2DC200010BEE4 /* MobileAppEthicsUITests */,
+				C6D67D3B2CC2DC1D0010BEE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6D67D3B2CC2DC1D0010BEE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6D67D3A2CC2DC1D0010BEE4 /* MobileAppEthics.app */,
+				C6D67D502CC2DC200010BEE4 /* MobileAppEthicsTests.xctest */,
+				C6D67D5A2CC2DC200010BEE4 /* MobileAppEthicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6D67D392CC2DC1D0010BEE4 /* MobileAppEthics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D67D632CC2DC200010BEE4 /* Build configuration list for PBXNativeTarget "MobileAppEthics" */;
+			buildPhases = (
+				C6D67D362CC2DC1D0010BEE4 /* Sources */,
+				C6D67D372CC2DC1D0010BEE4 /* Frameworks */,
+				C6D67D382CC2DC1D0010BEE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C6D67D3C2CC2DC1D0010BEE4 /* MobileAppEthics */,
+			);
+			name = MobileAppEthics;
+			packageProductDependencies = (
+			);
+			productName = MobileAppEthics;
+			productReference = C6D67D3A2CC2DC1D0010BEE4 /* MobileAppEthics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6D67D4F2CC2DC200010BEE4 /* MobileAppEthicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D67D682CC2DC200010BEE4 /* Build configuration list for PBXNativeTarget "MobileAppEthicsTests" */;
+			buildPhases = (
+				C6D67D4C2CC2DC200010BEE4 /* Sources */,
+				C6D67D4D2CC2DC200010BEE4 /* Frameworks */,
+				C6D67D4E2CC2DC200010BEE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6D67D522CC2DC200010BEE4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6D67D532CC2DC200010BEE4 /* MobileAppEthicsTests */,
+			);
+			name = MobileAppEthicsTests;
+			packageProductDependencies = (
+			);
+			productName = MobileAppEthicsTests;
+			productReference = C6D67D502CC2DC200010BEE4 /* MobileAppEthicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6D67D592CC2DC200010BEE4 /* MobileAppEthicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D67D6B2CC2DC200010BEE4 /* Build configuration list for PBXNativeTarget "MobileAppEthicsUITests" */;
+			buildPhases = (
+				C6D67D562CC2DC200010BEE4 /* Sources */,
+				C6D67D572CC2DC200010BEE4 /* Frameworks */,
+				C6D67D582CC2DC200010BEE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6D67D5C2CC2DC200010BEE4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C6D67D5D2CC2DC200010BEE4 /* MobileAppEthicsUITests */,
+			);
+			name = MobileAppEthicsUITests;
+			packageProductDependencies = (
+			);
+			productName = MobileAppEthicsUITests;
+			productReference = C6D67D5A2CC2DC200010BEE4 /* MobileAppEthicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6D67D322CC2DC1D0010BEE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C6D67D392CC2DC1D0010BEE4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C6D67D4F2CC2DC200010BEE4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C6D67D392CC2DC1D0010BEE4;
+					};
+					C6D67D592CC2DC200010BEE4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C6D67D392CC2DC1D0010BEE4;
+					};
+				};
+			};
+			buildConfigurationList = C6D67D352CC2DC1D0010BEE4 /* Build configuration list for PBXProject "MobileAppEthics" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6D67D312CC2DC1D0010BEE4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C6D67D3B2CC2DC1D0010BEE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6D67D392CC2DC1D0010BEE4 /* MobileAppEthics */,
+				C6D67D4F2CC2DC200010BEE4 /* MobileAppEthicsTests */,
+				C6D67D592CC2DC200010BEE4 /* MobileAppEthicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6D67D382CC2DC1D0010BEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D67D4E2CC2DC200010BEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D67D582CC2DC200010BEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6D67D362CC2DC1D0010BEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D67D4C2CC2DC200010BEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D67D562CC2DC200010BEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6D67D522CC2DC200010BEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6D67D392CC2DC1D0010BEE4 /* MobileAppEthics */;
+			targetProxy = C6D67D512CC2DC200010BEE4 /* PBXContainerItemProxy */;
+		};
+		C6D67D5C2CC2DC200010BEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6D67D392CC2DC1D0010BEE4 /* MobileAppEthics */;
+			targetProxy = C6D67D5B2CC2DC200010BEE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6D67D642CC2DC200010BEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileAppEthics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Petmecky.MobileAppEthics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6D67D652CC2DC200010BEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileAppEthics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Petmecky.MobileAppEthics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6D67D662CC2DC200010BEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6D67D672CC2DC200010BEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6D67D692CC2DC200010BEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Petmecky.MobileAppEthicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileAppEthics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileAppEthics";
+			};
+			name = Debug;
+		};
+		C6D67D6A2CC2DC200010BEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Petmecky.MobileAppEthicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileAppEthics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileAppEthics";
+			};
+			name = Release;
+		};
+		C6D67D6C2CC2DC200010BEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Petmecky.MobileAppEthicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileAppEthics;
+			};
+			name = Debug;
+		};
+		C6D67D6D2CC2DC200010BEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Petmecky.MobileAppEthicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileAppEthics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6D67D352CC2DC1D0010BEE4 /* Build configuration list for PBXProject "MobileAppEthics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D67D662CC2DC200010BEE4 /* Debug */,
+				C6D67D672CC2DC200010BEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D67D632CC2DC200010BEE4 /* Build configuration list for PBXNativeTarget "MobileAppEthics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D67D642CC2DC200010BEE4 /* Debug */,
+				C6D67D652CC2DC200010BEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D67D682CC2DC200010BEE4 /* Build configuration list for PBXNativeTarget "MobileAppEthicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D67D692CC2DC200010BEE4 /* Debug */,
+				C6D67D6A2CC2DC200010BEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D67D6B2CC2DC200010BEE4 /* Build configuration list for PBXNativeTarget "MobileAppEthicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D67D6C2CC2DC200010BEE4 /* Debug */,
+				C6D67D6D2CC2DC200010BEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6D67D322CC2DC1D0010BEE4 /* Project object */;
+}
