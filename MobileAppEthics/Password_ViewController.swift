@@ -13,7 +13,7 @@ class Password_ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        view.backgroundColor = .purple
+        view.backgroundColor = .purple // for testing
 
     }
     
