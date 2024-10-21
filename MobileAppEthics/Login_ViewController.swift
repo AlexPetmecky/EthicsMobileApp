@@ -12,7 +12,9 @@ class Login_ViewController: UIViewController {
     // test miles2
     @IBOutlet weak var loginBTN: UIButton!
     
+    @IBOutlet weak var username: UITextField!
     
+    @IBOutlet weak var pwd: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -26,7 +28,20 @@ class Login_ViewController: UIViewController {
     }
     
     @IBAction func login(_ sender: Any){
+        print(username.text!)
+        print(pwd.text!)
         
+        if(username.text! == "test" && pwd.text! == "test"){
+            print("HERE!")
+            //Home_ViewController()
+            //self.navigationController?.setViewControllers(Home_ViewController(), animated: false, completion: nil)
+            
+            let vc = Home_ViewController()
+            self.show(vc, sender: self)
+        }else{
+            print("ON ELSE")
+        }
+                
     }
 
 
