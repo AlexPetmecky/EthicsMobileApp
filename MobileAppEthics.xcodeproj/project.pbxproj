@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C6DB54302CC7F9000000862C /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = C6DB542F2CC7F9000000862C /* GoogleGenerativeAI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C6D67D512CC2DC200010BEE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DB54302CC7F9000000862C /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = MobileAppEthics;
 			packageProductDependencies = (
+				C6DB542F2CC7F9000000862C /* GoogleGenerativeAI */,
 			);
 			productName = MobileAppEthics;
 			productReference = C6D67D3A2CC2DC1D0010BEE4 /* MobileAppEthics.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = C6D67D312CC2DC1D0010BEE4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C6DB540C2CC7F87F0000862C /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C6D67D3B2CC2DC1D0010BEE4 /* Products */;
 			projectDirPath = "";
@@ -563,6 +572,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6DB540C2CC7F87F0000862C /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6DB542F2CC7F9000000862C /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6DB540C2CC7F87F0000862C /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6D67D322CC2DC1D0010BEE4 /* Project object */;
 }
