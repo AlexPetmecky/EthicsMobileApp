@@ -36,12 +36,27 @@ class Login_ViewController: UIViewController {
             //Home_ViewController()
             //self.navigationController?.setViewControllers(Home_ViewController(), animated: false, completion: nil)
             
-            let vc = Home_ViewController()
-            self.show(vc, sender: self)
+            //let vc = Home_ViewController()
+            //self.show(vc, sender: self)
+            //let nextVC = Home_ViewController()
+            //self.navigationController?.pushViewController(nextVC, animated: false)
+            
+            
+            let homeView = self.storyboard?.instantiateViewController(withIdentifier: "Home_ViewController") as! Home_ViewController
+            self.navigationController?.pushViewController(homeView, animated: true)
+            
+            
+            
+            
         }else{
             print("ON ELSE")
         }
                 
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
     }
 
 
