@@ -23,34 +23,53 @@ class Question_ViewController: UIViewController {
     let apiKey = "AIzaSyDZc5xAXGJhifuGwUyUkEzwCQ2CVLRuj94"
     var prompt = ""
     
+    /*
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toResultsPage",
+           let secondVC = segue.destination as? Result_ViewController,
+           let output = sender as? String {
+            secondVC.output = output
+        }
+    }
+    */
+    
     @IBOutlet weak var questionField: UITextField!
-    @IBOutlet weak var outputText: UITextView!
     
     @IBAction func generateButtonTapped(_ sender: UIButton) {
         // get text from input field
+        
+        // sender.isEnabled = false // added
+        
         guard let inputText = questionField.text, !inputText.isEmpty else {
-            outputText.text = "Please enter a prompt."
+            presentResultViewController(with: "Please enter a prompt.")
+            // performSegue(withIdentifier: "toResultsPage", sender: "Please enter a prompt.")
             return
         }
+        
         prompt = inputText
         
         // Call async function to generate text
         Task {
             let generatedText = await makeRequest(prompt: prompt)
             
-            DispatchQueue.main.async {
-                self.outputText.text = generatedText
-            }
+            presentResultViewController(with: generatedText)
+            // performSegue(withIdentifier: "toResultsPage", sender: generatedText)
         }
     }
     
+    private func presentResultViewController(with output: String) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let resultVC = storyboard.instantiateViewController(withIdentifier: "Result_ID") as? Result_ViewController {
+            resultVC.output = output
+            navigationController?.pushViewController(resultVC, animated: true)
+        }
+    }
     public func makeRequest(prompt: String) async -> String {
         let generativeModel =
           GenerativeModel(
             // Specify a Gemini model appropriate for your use case
             name: "gemini-1.5-flash",
-            // Access your API key from your on-demand resource .plist file (see "Set up your API key"
-            // above)
+            // Access API Key
             apiKey: self.apiKey
           )
         
