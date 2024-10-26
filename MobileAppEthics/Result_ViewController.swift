@@ -8,12 +8,17 @@
 import UIKit
 
 class Result_ViewController: UIViewController {
-
+    
+    @IBOutlet weak var outputText: UITextView!
+    var output: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         view.backgroundColor = .blue // for testing
+        
+        outputText.text = output
 
     }
     

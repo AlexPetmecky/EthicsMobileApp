@@ -131,31 +131,17 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5x-be-hIN">
-                                <rect key="frame" x="159" y="253" width="75" height="35"/>
+                                <rect key="frame" x="134" y="502" width="125" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="5ac-8Y-ePJ" kind="show" id="7Cc-Om-8Bo"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACb-7O-p31">
-                                <rect key="frame" x="134" y="555" width="125" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Ask Question"/>
                                 <connections>
-                                    <segue destination="5ac-8Y-ePJ" kind="show" id="Hbw-3m-GFe"/>
+                                    <segue destination="5ac-8Y-ePJ" kind="show" id="7Cc-Om-8Bo"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rye-sH-GdU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="ACb-7O-p31" firstAttribute="leading" secondItem="Rye-sH-GdU" secondAttribute="leading" constant="134" id="Is9-Iv-6Bj"/>
-                            <constraint firstItem="Rye-sH-GdU" firstAttribute="bottom" secondItem="ACb-7O-p31" secondAttribute="bottom" constant="272" id="JqE-gI-zxs"/>
-                            <constraint firstItem="ACb-7O-p31" firstAttribute="top" secondItem="Rye-sH-GdU" secondAttribute="top" constant="479" id="S7J-pH-Evq"/>
-                            <constraint firstItem="Rye-sH-GdU" firstAttribute="trailing" secondItem="ACb-7O-p31" secondAttribute="trailing" constant="134" id="rv1-jO-Jjw"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TTL-Sy-ov9"/>
                 </viewController>
@@ -235,7 +221,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="See Results"/>
                                 <connections>
                                     <action selector="generateButtonTapped:" destination="5ac-8Y-ePJ" eventType="touchUpInside" id="6VU-hD-cRg"/>
-                                    <segue destination="1o2-kz-qzo" kind="show" id="den-Eb-kDd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acd-Ll-7Vm">
@@ -253,21 +238,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Test TextView" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5Pu-Vm-z5j">
-                                <rect key="frame" x="67" y="689" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="H0i-IO-XqG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="6F0-ak-LkH"/>
                     <connections>
-                        <outlet property="outputText" destination="5Pu-Vm-z5j" id="4cG-Iq-egD"/>
                         <outlet property="questionField" destination="hWT-Qi-fYd" id="L5V-s3-n4j"/>
                     </connections>
                 </viewController>
@@ -278,9 +254,9 @@
         <!--Result View Controller-->
         <scene sceneID="qaW-5n-tBW">
             <objects>
-                <viewController id="1o2-kz-qzo" customClass="Result_ViewController" customModule="MobileAppEthics" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Result_ID" id="1o2-kz-qzo" customClass="Result_ViewController" customModule="MobileAppEthics" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GZ3-KG-Wmm">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Zu-W0-Gzk">
@@ -312,6 +288,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="gBT-CR-Fc2"/>
+                    <connections>
+                        <outlet property="outputText" destination="qEB-4S-Tg3" id="2aK-Rw-iRx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UkB-0F-gKk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -390,7 +369,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="den-Eb-kDd"/>
         <segue reference="4cE-CL-HG2"/>
         <segue reference="Qbg-Zw-9DA"/>
     </inferredMetricsTieBreakers>
