@@ -16,54 +16,41 @@ class Question_ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        view.backgroundColor = .orange // for testing
     }
     
-    //key:AIzaSyDZc5xAXGJhifuGwUyUkEzwCQ2CVLRuj94
     let apiKey = "AIzaSyDZc5xAXGJhifuGwUyUkEzwCQ2CVLRuj94"
     var prompt = ""
-    
-    /*
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toResultsPage",
-           let secondVC = segue.destination as? Result_ViewController,
-           let output = sender as? String {
-            secondVC.output = output
-        }
-    }
-    */
     
     @IBOutlet weak var questionField: UITextField!
     
     @IBAction func generateButtonTapped(_ sender: UIButton) {
         // get text from input field
-        
-        // sender.isEnabled = false // added
-        
+                
+        // guard: ensure input is valid (print error message if blank)
         guard let inputText = questionField.text, !inputText.isEmpty else {
             presentResultViewController(with: "Please enter a prompt.")
-            // performSegue(withIdentifier: "toResultsPage", sender: "Please enter a prompt.")
             return
         }
         
-        prompt = inputText
+        prompt = inputText + " (Responses should be no more than 70-100 words in length)"
         
         // Call async function to generate text
         Task {
             let generatedText = await makeRequest(prompt: prompt)
             
-            presentResultViewController(with: generatedText)
-            // performSegue(withIdentifier: "toResultsPage", sender: generatedText)
+            presentResultViewController(with: generatedText) // display to results page
         }
     }
     
+    // Display to Result_ViewController
     private func presentResultViewController(with output: String) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil) // create instance of the Main storyboard
         if let resultVC = storyboard.instantiateViewController(withIdentifier: "Result_ID") as? Result_ViewController {
             resultVC.output = output
             navigationController?.pushViewController(resultVC, animated: true)
         }
     }
+    
     public func makeRequest(prompt: String) async -> String {
         let generativeModel =
           GenerativeModel(
