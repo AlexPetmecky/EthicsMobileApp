@@ -10,8 +10,10 @@ import UIKit
 class Result_ViewController: UIViewController {
     
     @IBOutlet weak var outputText: UITextView!
+    @IBOutlet weak var questionRestate: UITextView!
 
     var output: String?
+    var question: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +21,7 @@ class Result_ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         outputText.text = output
+        questionRestate.text = question
     }
     
     @IBOutlet weak var choice: UITextView!
@@ -35,7 +38,7 @@ class Result_ViewController: UIViewController {
         choice.text = "You are against this issue! Maybe you can convince other people you're right too!"
     }
     
-    
+
 
     /*
     // MARK: - Navigation
