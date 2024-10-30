@@ -14,7 +14,7 @@ class Result_ViewController: UIViewController {
 
     var output: String?
     var question: String?
-    
+    let jsonHandler = HandleJson()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +22,10 @@ class Result_ViewController: UIViewController {
         
         outputText.text = output
         questionRestate.text = question
+        
+        jsonHandler.load_data()
+        jsonHandler.insert_new(question:question!, sentiment:"-")
+        jsonHandler.saveJSONData()
     }
     
     @IBOutlet weak var choice: UITextView!
