@@ -9,13 +9,27 @@ import UIKit
 
 class Password_ViewController: UIViewController {
 
+
+    @IBOutlet weak var pwdRecoveryLabel: UILabel!
+    @IBOutlet weak var usernameEntry: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        view.backgroundColor = .purple // for testing
+        //view.backgroundColor = .purple // for testing
 
     }
+    
+    @IBAction func recoverPwdBtn(_ sender: Any) {
+        let userHandler = HandleJson()
+        userHandler.loadUserData()
+        let userData = userHandler.getUserInfoBy_uname(uname: usernameEntry.text!)
+        pwdRecoveryLabel.textColor = UIColor.black
+        print(userData[0].pwd)
+        pwdRecoveryLabel.text = userData[0].pwd
+        
+    }
+    
     
 
     /*
