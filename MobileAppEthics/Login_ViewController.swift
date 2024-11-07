@@ -31,7 +31,20 @@ class Login_ViewController: UIViewController {
         print(username.text!)
         print(pwd.text!)
         
-        if(username.text! == "test" && pwd.text! == "test"){
+        let userHandler = HandleJson()
+        userHandler.loadUserData()
+        let userData = userHandler.getUserInfoBy_uname(uname: username.text!)
+        
+        //print("USERDATA")
+        //print(userData[0].username)
+        //print("-------")
+        
+        //if(username.text! == "test" && pwd.text! == "test"){
+        if(username.text! == userData[0].username && pwd.text! == userData[0].pwd){
+            //userHandler.loadUserData()
+            //userHandler.insertNewUser(username: "test", pwd: "test", email: "test@test.com")
+            //userHandler.saveJSONDataUsers(file: "userdata")
+            
             print("HERE!")
             //Home_ViewController()
             //self.navigationController?.setViewControllers(Home_ViewController(), animated: false, completion: nil)

@@ -24,8 +24,8 @@ class Result_ViewController: UIViewController {
         questionRestate.text = question
         
         jsonHandler.load_data()
-        jsonHandler.insert_new(question:question!, sentiment:"-")
-        jsonHandler.saveJSONData()
+        jsonHandler.insert_new(question:question!,answer: output! ,sentiment:"-")
+        jsonHandler.saveJSONData(file: "data")
     }
     
     @IBOutlet weak var choice: UITextView!
