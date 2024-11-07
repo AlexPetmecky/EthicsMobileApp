@@ -36,6 +36,14 @@ class Login_ViewController: UIViewController {
         let userHandler = HandleJson()
         userHandler.loadUserData()
         
+
+
+        // Uncomment these three lines and change user info to add a new user
+            // userHandler.loadUserData()
+            // userHandler.insertNewUser(username: "test", pwd: "test", email: "test@test.com")
+            // userHandler.saveJSONDataUsers(file: "userdata")
+                    
+
         let userData = userHandler.getUserInfoBy_uname(uname: username.text!)
         
         //print("USERDATA")
