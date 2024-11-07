@@ -67,19 +67,27 @@
                                     <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Glp-6U-OMP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incorrect Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hsr-yn-coa">
+                                <rect key="frame" x="135" y="416" width="147" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="cOp-bn-NI5"/>
                     <connections>
+                        <outlet property="incorrectPWDLabel" destination="Hsr-yn-coa" id="3Wh-Ap-h0N"/>
                         <outlet property="pwd" destination="nW0-bA-DsX" id="fDq-5t-AwE"/>
                         <outlet property="username" destination="Eoc-f3-XYz" id="lfE-cf-yY3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1292" y="-523"/>
+            <point key="canvasLocation" x="1290.8396946564885" y="-523.23943661971839"/>
         </scene>
         <!--Password View Controller-->
         <scene sceneID="V7Z-5M-wxY">
