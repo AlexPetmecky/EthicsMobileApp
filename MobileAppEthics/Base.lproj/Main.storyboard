@@ -46,18 +46,18 @@
                                 <rect key="frame" x="158" y="653" width="78" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Submit"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Forgot Password"/>
                                 <connections>
-                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Glp-6U-OMP"/>
+                                    <segue destination="3rH-2c-9V6" kind="show" id="8d4-jL-tW2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Etk-y0-VWT">
                                 <rect key="frame" x="128" y="758" width="152" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Forgot Password"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Submit"/>
                                 <connections>
-                                    <segue destination="3rH-2c-9V6" kind="show" id="8d4-jL-tW2"/>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Glp-6U-OMP"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qr6-qS-GDq">
@@ -70,6 +70,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="thH-zp-O3a" userLabel="Create Account"/>
                     <connections>
+                        <outlet property="incorrectPWDLabel" destination="Hsr-yn-coa" id="3Wh-Ap-h0N"/>
                         <outlet property="pwd" destination="nW0-bA-DsX" id="fDq-5t-AwE"/>
                         <outlet property="username" destination="Eoc-f3-XYz" id="lfE-cf-yY3"/>
                     </connections>
@@ -229,6 +230,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="OCw-Zd-l0b"/>
+                    <connections>
+                        <outlet property="questionHist" destination="VEp-10-qjh" id="I7r-aH-zFa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mcy-bV-jz0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
