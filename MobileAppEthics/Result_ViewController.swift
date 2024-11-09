@@ -17,7 +17,7 @@ class Result_ViewController: UIViewController {
     let jsonHandler = HandleJson()
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor =  UIColor(named: "Color1")
         // Do any additional setup after loading the view.
         
         outputText.text = output

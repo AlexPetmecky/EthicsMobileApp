@@ -13,11 +13,11 @@ class About_ViewController: UIViewController {
         super.viewDidLoad()
         
         // Background Color
-        view.backgroundColor = .white
+        view.backgroundColor =  UIColor(named: "Color1")
         
         // Title Label
         let titleLabel = UILabel()
-        titleLabel.text = "About US"
+        titleLabel.text = "About Us"
         titleLabel.font = UIFont.boldSystemFont(ofSize: 24)
         titleLabel.textAlignment = .center
         titleLabel.translatesAutoresizingMaskIntoConstraints = false

@@ -34,7 +34,7 @@ class History_ViewController: UIViewController {
         
 
         // Do any additional setup after loading the view.
-        view.backgroundColor = .yellow // for testing
+        view.backgroundColor =  UIColor(named: "Color1")
 
     }
     
