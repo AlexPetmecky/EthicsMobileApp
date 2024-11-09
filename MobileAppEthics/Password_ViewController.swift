@@ -9,14 +9,14 @@ import UIKit
 
 class Password_ViewController: UIViewController {
 
-
+    
     @IBOutlet weak var pwdRecoveryLabel: UILabel!
     @IBOutlet weak var usernameEntry: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        //view.backgroundColor = .purple // for testing
+        view.backgroundColor =  UIColor(named: "Color1")
 
     }
     

@@ -13,7 +13,7 @@ class Home_ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        //view.backgroundColor = .gray // for testing
+        view.backgroundColor =  UIColor(named: "Color1")
         print("LOADED");
 
     }

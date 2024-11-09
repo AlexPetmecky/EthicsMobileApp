@@ -11,7 +11,7 @@ class Resources_ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor =  UIColor(named: "Color1")
         // Do any additional setup after loading the view.
     }
     

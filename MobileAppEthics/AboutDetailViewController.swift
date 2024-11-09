@@ -27,7 +27,7 @@ class AboutDetailViewController: UIViewController {
         super.viewDidLoad()
         
         // Background Color
-        view.backgroundColor = .white
+        view.backgroundColor =  UIColor(named: "Color1")
         
         // Title Label
         let titleLabel = UILabel()
@@ -36,6 +36,7 @@ class AboutDetailViewController: UIViewController {
         titleLabel.textAlignment = .center
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(titleLabel)
+        //
         
         // Description Label
         let descriptionLabel = UILabel()
@@ -43,12 +44,14 @@ class AboutDetailViewController: UIViewController {
         descriptionLabel.font = UIFont.systemFont(ofSize: 16)
         descriptionLabel.numberOfLines = 0
         descriptionLabel.textAlignment = .center
-        descriptionLabel.backgroundColor = .darkGray
-        descriptionLabel.textColor = .white
+        descriptionLabel.backgroundColor = UIColor(named: "Color1")
+        descriptionLabel.textColor = .black
         descriptionLabel.layer.cornerRadius = 10
         descriptionLabel.layer.masksToBounds = true
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(descriptionLabel)
+        //translateAutoresizingMaskIntoContraints-
+        
         
         // Go Back Button
         let goBackButton = UIButton(type: .system)

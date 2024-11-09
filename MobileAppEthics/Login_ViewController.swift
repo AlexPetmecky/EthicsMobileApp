@@ -22,7 +22,7 @@ class Login_ViewController: UIViewController {
         // commenting this out to avoid errors from simulation:
         // loginBTN.addTarget(self, action: #selector(self.login(_:)), for: UIControl.Event.touchUpInside)
     
-        view.backgroundColor = .lightGray // for testing
+        view.backgroundColor =  UIColor(named: "Color1")// for testing
 
         
     }
@@ -33,6 +33,9 @@ class Login_ViewController: UIViewController {
         
         let userHandler = HandleJson()
         userHandler.loadUserData()
+        userHandler.loadUserData()
+        userHandler.insertNewUser(username: "test", pwd: "test", email: "test@test.com")
+        userHandler.saveJSONDataUsers(file: "userdata")
         let userData = userHandler.getUserInfoBy_uname(uname: username.text!)
         
         //print("USERDATA")
